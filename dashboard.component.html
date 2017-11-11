@@ -1,0 +1,2244 @@
+
+<style>
+
+
+.nb-theme-default .input-group-addon, .nb-theme-default .form-control
+{
+
+    border:none !important;
+}
+.form-control
+{
+    border-radius: 0px !important;
+}
+
+.date_formate ul
+{
+
+    text-align: center;
+}
+    .date_formate ul li
+    {
+
+list-style-type: none;
+margin: 0px;
+display: inline-block;
+    }
+
+    .sm_width
+    {
+
+        width:10px;
+    }
+    .input-group
+    {
+
+        border-bottom: 1px solid #9A9AD5;
+    border-left: 1px solid #9A9AD5;
+    border-right: 1px solid #9A9AD5;
+    }
+    .col-form-label{
+        background-color: #e0e0ff;
+    }
+</style>
+
+
+<!-- My table -->
+
+<!-- <div class="row">
+
+<div class="col-lg-12" style="text-align: center; font-size:160%; font-weight: bold;">
+
+<label>BROKERAGE ACCOUNT OPENING AGREEMENT- INDIVIDUAL</label>
+
+</div>
+
+</div>
+
+
+-->
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white">DETAILS</nb-card-header>
+
+            <nb-card-body>
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Client ID</label>
+
+                    </div>
+
+                    <div class="col-sm-4 input-group col-form-label" dir="rtl">
+
+                        <label>‫التداول‬ ‫رقم‬</label>
+
+                    </div>
+
+                    <div class="col-sm-8 input-group">
+
+                        <input type="text" placeholder="Client ID" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Investor Number in DFM / NASDAQ Dubai</label>
+
+                    </div>
+
+                    <div class="col-sm-8 input-group">
+
+                        <input type="text" placeholder="Investor Number in DFM / NASDAQ Dubai" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Investor Number in ADX</label>
+
+                    </div>
+
+                    <div class="col-sm-8 input-group">
+
+                        <input type="text" placeholder="Investor Number in ADX" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white; border-radius: 0px !important;">INVESTOR'S PERSONAL DETAILS</nb-card-header>
+
+            <nb-card-body>
+
+                <div class="input-group" style="border-top: 1px solid #6969ce;">
+
+                    <div class="col-sm-2  col-form-label">
+                        <label>Full Name</label>
+                    </div>
+                    <div class=" input-group ">
+                        <input type="text" placeholder="Full Name" class="form-control" />
+                    </div>
+                    <div class="col-sm-2 col-form-label" dir="rtl">
+                        <label>Full Name</label>
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+                        <label>Gender</label>
+                    </div>
+                    <div class="input-group">
+                        <select class="form-control">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+                        <label>Gender</label>
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+                        <label>Date of Birth</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="date" placeholder="Date of Birth" class="form-control" />
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+                        <label>Date of Birth</label>
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Khulasat Number</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Khulasat Number" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Khulasat Number</label>
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>ID Number</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="ID Number" class="form-control" />
+
+                    </div>
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>ID Number</label>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Nationality</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Nationality" class="form-control" />
+
+                    </div>
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Nationality</label>
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Passport Number</label>
+
+                    </div> 
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Passport Number" class="form-control" />
+
+                    </div> 
+
+                    
+<!--                     
+                        <div class=" input-group date_formte">
+                        <center><ul>
+                            <li><input type="text" placeholder="D"></li>
+                            <li><input type="text" placeholder="D"></li>
+                            <li><input type="text" placeholder="D"></li>
+                            <li><input type="text" placeholder="D"></li>
+                        
+                        </ul>   </center> 
+                        
+                        </div>  -->
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Passport Number</label>
+
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Passport Expiry Date</label>
+
+                    </div>
+
+                    <div class="col-sm-4 input-group date_formate" style="padding: 7px 0px 0px 10px;">
+                       <ul>
+                       <li><input type="text" placeholder="D" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="D" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="M" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="M" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="Y" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="Y" class="form-control sm_width" /></li>
+                        
+                        <li><input type="text" placeholder="Y" class="form-control sm_width" /></li>
+                        <li><input type="text" placeholder="Y" class="form-control sm_width" /></li>
+
+                    </ul>    
+
+                           
+                    </div>
+                                <div class="col-sm-4 input-group col-form-label" dir="rtl">
+                            
+                                                    <label>Passport Expiry Date</label>
+                            
+                                                </div>
+                            
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-6 input-group col-form-label" style="border-right:none !important ">
+
+                        <h6>Address</h6>
+
+                    </div>
+                    <div class="col-sm-6 input-group col-form-label" dir="rtl" style="border-left:none !important ">
+
+                        <h6>Address</h6>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Country</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Country" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Country</label>
+
+                    </div>
+
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Emirate</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Emirate" class="form-control" />
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+                        <label>Emirate</label>
+                    </div>
+
+
+                    
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>City</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="City" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>City</label>
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>P.O. Box / Zip /
+
+Postal code</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="P.O. Box/Zip/Postal code" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>P.O. Box / Zip /
+  
+  Postal code</label>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Street Name / Number</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Street Name / Number" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Street Name / Number</label>
+
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Villa Number /
+
+Building Name</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Villa Number / Building Name" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Villa Number /
+  
+  Building Name</label>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Telephone (Residence)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Telephone (Residence)" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Telephone (Residence)</label>
+
+                    </div>
+
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Telephone (Office)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Telephone (Office)" class="form-control" />
+
+                    </div>
+
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Telephone (Office)</label>
+
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Fax</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Fax" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Fax</label>
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Mobile</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Mobile" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Mobile</label>
+
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>E-mail</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="email" placeholder="E-mail" class="form-control" email/>
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>E-mail</label>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Employement Status</label>
+
+                    </div>
+
+                    <div class="demo-radio col-sm-8 input-group" style="display: inline">
+                            <label class="custom-control custom-radio">
+                                    <span class="custom-control-description">employed</span>
+                                        
+                                </label>        
+        
+                        <label class="custom-control custom-radio">
+                            
+                            <input type="radio" class="custom-control-input" name="customRadio">
+
+                            <span class="custom-control-indicator"></span>
+
+                            <span class="custom-control-description">Employed</span>
+                        </label>
+                        
+
+                        <label class="custom-control custom-radio">
+                            <span class="custom-control-description">Self employed</span>
+                                
+                        </label>        
+
+                        <label class="custom-control custom-radio">
+                                
+                            <input type="radio" class="custom-control-input" name="customRadio" checked>
+
+                            <span class="custom-control-indicator"></span>
+
+                            <span class="custom-control-description">Self employed</span>
+
+                        </label>
+
+
+                        <label class="custom-control custom-radio">
+                                <span class="custom-control-description">NOT employed</span>
+                                    
+                            </label>        
+    
+                        <label class="custom-control custom-radio">
+
+                            <input type="radio" class="custom-control-input" name="customRadio">
+
+                            <span class="custom-control-indicator"></span>
+
+                            <span class="custom-control-description">Not employed</span>
+
+                        </label>
+
+                    </div>    
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+                        <label>Employement Status</label>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Employer Name</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Employer Name" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Employer Name</label>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Employer Address</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Employer Address" class="form-control" />
+
+                    </div>
+
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Employer Address</label>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Designation</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Designation" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label" dir="rtl">
+
+                        <label>Designation</label>
+
+                    </div>
+                </div>
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white; border-radius: 0px !important;">
+
+                IF OPERATED BY POWER OF ATTORNEY*/AGENT / GUARDIAN</nb-card-header>
+
+            <nb-card-body>
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Full Name</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Full Name" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Gender</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <select class="form-control">
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Nationality</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Nationality" class="form-control" />
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Date of Birth</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="date" placeholder="Date of Birth" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>ID Number</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="ID Number" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Passport Number</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Passport Number" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Passport Expiry Date</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="date" placeholder="Passport Expiry Date" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <h6>Address</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Country</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Country" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Emirate</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Emirate" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>City</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="City" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>P.O. Box / Zip /
+
+Postal code</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="P.O. Box/Zip/Postal code" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Villa Number /
+
+Building Name</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Villa Number / Building Name" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Telephone (Residence)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Telephone (Residence)" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Telephone (Office)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Telephone (Office)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Mobile</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Mobile" class="form-control" />
+
+                    </div>
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Fax</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Fax" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>E-mail</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="email" placeholder="E-mail" class="form-control" email/>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <label>* Copy of Legal POA and Emirates NBD Securities POA registration form required</label>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <label><h5>Are you a politically exposed* person?</h5>
+
+* A high ranking official in an executive or legislative body, government or political official of a foreign
+
+country or a military officer in a foreign government, or a judiciary member in a foreign government,
+
+or a relative thereof.</label>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="demo-radio col-sm-4 input-group">
+
+                        <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Yes</span>
+
+</label>
+
+                        <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">No</span>
+
+</label>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <label>If ‘YES’ please provide the details below</label>
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <textarea rows="3" placeholder="Text Area" class="form-control"></textarea>
+
+                </div>
+
+
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white">
+
+                FINANCIAL INFORMATION</nb-card-header>
+
+            <nb-card-body>
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Estimated Total Net Worth (in AED)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Estimated Total Net Worth (in AED)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Source of Wealth</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Business Earnings</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Investment Income</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Sale of Property</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Inheritance</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Sale of Company</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Others (pls specify)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Others (pls specify)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-6 input-group col-form-label">
+
+                        <label>Total family and/or joint/partnership income (from all sources)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Annual Income</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Less than AED 25,000</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Between AED 100,000 - 250,000</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Between AED 25,000 - 100,000</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">More than AED 250,000</span>
+
+</label>
+
+                </div>
+
+                <br/>
+
+                <br/>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Source of Income (For not employed)</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Savings</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Salary</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Inheritance</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Capital Markets</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Other</span>
+
+</label>
+
+                </div>
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white">
+
+                ESTIMATED DAILY TRANSACTIONS (Applicable for DGCX only)</nb-card-header>
+
+            <nb-card-body>
+
+
+
+                <div class="demo-radio col-sm-4">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">50 Contracts or Less</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">More than 50 Contracts</span>
+
+</label>
+
+                </div>
+
+
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white">
+
+                INVESTOR'S FINANCIAL DETAILS (As required by market regulations)</nb-card-header>
+
+            <nb-card-body>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>Amount to be invested in shares markets (AED)</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <h6>Financial Obligations</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-6 input-group col-form-label">
+
+                        <label>Do you have any other account with another brokerage company</label>
+
+                    </div>
+
+                    <div class="demo-radio col-sm-8" style="display: inline">
+
+                        <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Yes</span>
+
+</label>
+
+                        <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">No</span>
+
+</label>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-4 input-group col-form-label">
+
+                        <label>If the answer is yes, please give details</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>The extent of the knowledge in investing in Financial Securities</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Nothing</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Less than one year</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">One to three years</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Above three years</span>
+
+</label>
+
+                </div>
+
+                <br/>
+
+                <br/>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Preferred sector</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Banks</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Industry</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Real Estate</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Investment</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Services</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Insurance</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Communications</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Others</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Preferred Shares (to be mention in order of importance) </h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="A)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="B)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="C)" class="form-control" />
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Investor's financial goals & knowledge in financial securities</h6>
+
+                        <small> (Please mark a tick ( R ) in the appropriate boxes)</small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>The expected return from investing in financial securities</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">10%</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">20%</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">30%</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">50%</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">75%</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>The extent of risk that I / we can assume</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Low</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Moderate</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">High</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Investment strategy</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Short Term</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Long Term</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Speculation</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Arbitrage</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Pricing/Delivery</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Hedging</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Objectives of investing in financial securities</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">To become a shareholder and to have the voting rights in a listed company / companies</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">To acquire a significant ownership of a listed company / companies through large investments</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">To gain financial benefits in short / medium / long term</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">As a main / supportive income stream</span>
+
+</label>
+
+                </div>
+
+
+
+                <br/>
+
+                <br/>
+
+
+
+
+
+
+
+            </nb-card-body>
+
+        </nb-card>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+
+        <nb-card>
+
+            <nb-card-header style="background-color: #0B0B5F; color: white">
+
+                OTHER SERVICES</nb-card-header>
+
+            <nb-card-body>
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>Preferred method of placing orders</h6>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="demo-radio col-sm-8" style="display: inline">
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Telephone</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio" checked>
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">In Person</span>
+
+</label>
+
+                    <label class="custom-control custom-radio">
+
+<input type="radio" class="custom-control-input" name="customRadio">
+
+<span class="custom-control-indicator"></span>
+
+<span class="custom-control-description">Online Trading - eBroker Services*</span>
+
+</label>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="input-group col-form-label">
+
+                        <h6>* Choose your username for eBroker</h6>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Option 1</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Option 1" class="form-control" />
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Option 2</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Option 2" class="form-control" />
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="col-sm-2 input-group col-form-label">
+
+                        <label>Option 3</label>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <input type="text" placeholder="Option 3" class="form
+
+...
